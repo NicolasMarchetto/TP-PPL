@@ -1,0 +1,45 @@
+cabal-version:      3.0
+
+name:               Tp-proba
+version:            0.1.0.0
+
+author:             Nicolas Marchetto
+maintainer:         nima200505@gmail.com
+
+build-type:         Simple
+
+extra-doc-files:    CHANGELOG.md
+
+common warnings
+    ghc-options: -Wall
+
+executable Tp-proba
+    import:           warnings
+
+    main-is:          Main.hs
+
+    other-modules:
+        Controller
+        Machine
+        DataVD
+        Distribution
+        Primitive
+        Formula
+        SSMH
+        OneCoin
+        Bits8
+
+    build-depends:
+        base ^>=4.17.2.1,
+        random,
+        mwc-random,
+        containers,
+        math-functions,
+        vector
+
+    hs-source-dirs:
+        .
+        minippl
+        test
+
+    default-language: Haskell2010
