@@ -13,3 +13,5 @@ Algunas distribuciones como la Dirichlet no se si estan bien porque las hice a p
 Por un tema de tiempo los mensajes de error son malos y probablemente me hayan faltado casos.
 
 Tambien en los test de los algoritmos puse menos pasos porque tardaba mucho,no se si es un tema de mi implementacion o de haskell.
+
+No se si esta bien el ReadMe o es muy corto, no se si tengo que explicar por arriba cada archivo en general o hacer un resumen y poner como usarlo
