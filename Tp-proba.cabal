@@ -1,6 +1,6 @@
 cabal-version:      3.0
 
-name:               Tp-proba
+name:               TP-PPL
 version:            0.1.0.0
 
 author:             Nicolas Marchetto
@@ -13,7 +13,7 @@ extra-doc-files:    CHANGELOG.md
 common warnings
     ghc-options: -Wall
 
-executable Tp-proba
+executable TP-PPL
     import:           warnings
 
     main-is:          Main.hs
